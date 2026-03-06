@@ -100,7 +100,7 @@ export default function Hero() {
       <div className="container hero-content">
         <img
           className="hero-avatar"
-          src="/profile-photo.jpg"
+          src={`${import.meta.env.BASE_URL}profile-photo.jpg`}
           alt="Saathvik Krishnan"
           loading="eager"
         />

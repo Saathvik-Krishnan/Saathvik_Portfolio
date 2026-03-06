@@ -25,7 +25,7 @@ export const projects = [
       'Measuring synthesis quality across multiple papers',
     ],
     image:
-      '/project-images/rag-pipeline.svg',
+      `${import.meta.env.BASE_URL}project-images/rag-pipeline.svg`,
     githubUrl: 'https://github.com/Saathvik-Krishnan/Research-Paper-Copilot',
     liveUrl: '',
   },
@@ -54,7 +54,7 @@ export const projects = [
       'Improving source trust and relevance filtering',
     ],
     image:
-      '/project-images/crewai-agents.svg',
+      `${import.meta.env.BASE_URL}project-images/crewai-agents.svg`,
     githubUrl:
       'https://github.com/Saathvik-Krishnan/CrewAI-Powered-Multi-Agent-Research-Pipeline-with-LLM-Based-Summarization',
     liveUrl: '',
@@ -83,7 +83,7 @@ export const projects = [
       'Keeping dashboard visuals clear and uncluttered',
     ],
     image:
-      '/project-images/analytics-dashboard.svg',
+      `${import.meta.env.BASE_URL}project-images/analytics-dashboard.svg`,
     githubUrl: 'https://github.com/Saathvik-Krishnan/AdventureWorks-Report-Dashboard',
     liveUrl: '',
   },
@@ -110,7 +110,7 @@ export const projects = [
     ],
     challenges: ['Class imbalance across 26 categories', 'Variable-length article handling'],
     image:
-      '/project-images/news-classification.svg',
+      `${import.meta.env.BASE_URL}project-images/news-classification.svg`,
     githubUrl: 'https://github.com/Saathvik-Krishnan/SEMANTIC-MAIN',
     liveUrl: '',
   },
@@ -135,7 +135,7 @@ export const projects = [
     ],
     challenges: ['Signal noise and preprocessing complexity', 'Generalization across EEG recording variance'],
     image:
-      '/project-images/brain-eeg.svg',
+      `${import.meta.env.BASE_URL}project-images/brain-eeg.svg`,
     githubUrl:
       'https://github.com/Saathvik-Krishnan/Enhanced-Epilepsy-Diagnosis-through-EEG-Pattern-Recognition',
     liveUrl: '',
@@ -161,7 +161,7 @@ export const projects = [
     ],
     challenges: ['Data cleaning for large transaction datasets', 'Designing useful segment thresholds'],
     image:
-      '/project-images/rfm-analysis.svg',
+      `${import.meta.env.BASE_URL}project-images/rfm-analysis.svg`,
     githubUrl: 'https://github.com/Saathvik-Krishnan/E-Commerce-Transaction-Analysis',
     liveUrl: '',
   },
@@ -185,7 +185,7 @@ export const projects = [
     ],
     challenges: ['Feature engineering from mission data', 'Model selection and evaluation tradeoffs'],
     image:
-      '/project-images/falcon9-prediction.svg',
+      `${import.meta.env.BASE_URL}project-images/falcon9-prediction.svg`,
     githubUrl: 'https://github.com/Saathvik-Krishnan/Applied-data-science-capstone',
     liveUrl: '',
   },
