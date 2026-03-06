@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="RAG pipeline illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111b36"/>
+      <stop offset="1" stop-color="#0a1226"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#18294e"/>
+      <stop offset="1" stop-color="#0f1e3b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="40" y="44" width="1120" height="588" rx="24" fill="#0b1630" stroke="#2c436f"/>
+
+  <text x="84" y="115" fill="#cce1ff" font-size="42" font-family="Segoe UI, Arial" font-weight="700">Multi-Paper RAG Pipeline</text>
+  <text x="84" y="152" fill="#79d9ff" font-size="24" font-family="Segoe UI, Arial">Hybrid BM25 + Vector Retrieval + Synthesis</text>
+
+  <rect x="86" y="205" width="300" height="360" rx="18" fill="url(#card)" stroke="#4568a2"/>
+  <text x="114" y="248" fill="#d7e8ff" font-size="25" font-family="Segoe UI, Arial" font-weight="600">Paper Chunks</text>
+  <rect x="114" y="270" width="240" height="52" rx="10" fill="#223a66"/>
+  <rect x="114" y="336" width="240" height="52" rx="10" fill="#223a66"/>
+  <rect x="114" y="402" width="240" height="52" rx="10" fill="#223a66"/>
+  <rect x="114" y="468" width="240" height="52" rx="10" fill="#223a66"/>
+
+  <rect x="430" y="205" width="300" height="170" rx="18" fill="url(#card)" stroke="#4568a2"/>
+  <text x="458" y="250" fill="#d7e8ff" font-size="25" font-family="Segoe UI, Arial" font-weight="600">BM25 Signals</text>
+  <rect x="458" y="274" width="72" height="68" rx="8" fill="#6ebdff"/>
+  <rect x="548" y="258" width="72" height="84" rx="8" fill="#8ecfff"/>
+  <rect x="638" y="236" width="72" height="106" rx="8" fill="#a9dbff"/>
+
+  <rect x="430" y="395" width="300" height="170" rx="18" fill="url(#card)" stroke="#4568a2"/>
+  <text x="458" y="440" fill="#d7e8ff" font-size="25" font-family="Segoe UI, Arial" font-weight="600">Vector Similarity</text>
+  <circle cx="500" cy="490" r="13" fill="#7ad7ff"/>
+  <circle cx="560" cy="525" r="13" fill="#7ad7ff"/>
+  <circle cx="620" cy="474" r="13" fill="#7ad7ff"/>
+  <circle cx="680" cy="515" r="13" fill="#7ad7ff"/>
+  <path d="M500 490 560 525 620 474 680 515" fill="none" stroke="#7ad7ff" stroke-width="4"/>
+
+  <rect x="776" y="205" width="340" height="360" rx="18" fill="url(#card)" stroke="#4568a2"/>
+  <text x="808" y="248" fill="#d7e8ff" font-size="25" font-family="Segoe UI, Arial" font-weight="600">Metric-Aware Synthesis</text>
+  <rect x="808" y="274" width="278" height="188" rx="12" fill="#16294d"/>
+  <path d="M836 336h220" stroke="#3f5f93" stroke-width="3"/>
+  <path d="M836 364h220" stroke="#3f5f93" stroke-width="3"/>
+  <path d="M836 392h220" stroke="#3f5f93" stroke-width="3"/>
+  <path d="M836 420h165" stroke="#3f5f93" stroke-width="3"/>
+  <text x="808" y="510" fill="#8ee7ff" font-size="23" font-family="Segoe UI, Arial">Grounded answer with citations</text>
+
+  <path d="M386 286h34m-17-17v34" stroke="#79d9ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M730 286h30" stroke="#79d9ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M730 480h30" stroke="#79d9ff" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="745" cy="286" r="6" fill="#79d9ff" filter="url(#glow)"/>
+  <circle cx="745" cy="480" r="6" fill="#79d9ff" filter="url(#glow)"/>
+</svg>

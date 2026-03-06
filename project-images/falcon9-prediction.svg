@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Falcon 9 landing prediction illustration">
+  <defs>
+    <linearGradient id="bg7" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f1a34"/>
+      <stop offset="1" stop-color="#091024"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1a2e54"/>
+      <stop offset="1" stop-color="#101c33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg7)"/>
+  <rect x="40" y="44" width="1120" height="588" rx="24" fill="#0a1530" stroke="#334f81"/>
+
+  <text x="84" y="115" fill="#d7e8ff" font-size="42" font-family="Segoe UI, Arial" font-weight="700">Falcon 9 Landing Prediction</text>
+  <text x="84" y="152" fill="#83daff" font-size="24" font-family="Segoe UI, Arial">Mission features · classification · success probability</text>
+
+  <rect x="84" y="196" width="610" height="368" rx="18" fill="#132645" stroke="#486aa2"/>
+  <text x="114" y="238" fill="#d0e5ff" font-size="24" font-family="Segoe UI, Arial">Launch and Trajectory Signals</text>
+  <path d="M126 520 L656 520" stroke="#35527c" stroke-width="4"/>
+  <rect x="318" y="274" width="28" height="246" rx="8" fill="#dceaff"/>
+  <path d="M332 274 C334 256 338 242 350 226 C365 208 380 202 392 184" fill="none" stroke="#83dbff" stroke-width="5"/>
+  <path d="M332 296 C332 286 334 281 340 270 C345 260 350 252 356 246" fill="none" stroke="#ffd289" stroke-width="6"/>
+  <ellipse cx="332" cy="530" rx="62" ry="18" fill="#1b2f51"/>
+
+  <rect x="740" y="196" width="362" height="172" rx="18" fill="#132645" stroke="#486aa2"/>
+  <text x="768" y="238" fill="#d0e5ff" font-size="24" font-family="Segoe UI, Arial">Feature Importance</text>
+  <rect x="772" y="262" width="240" height="20" rx="10" fill="#2b4670"/>
+  <rect x="772" y="262" width="195" height="20" rx="10" fill="#87ddff"/>
+  <rect x="772" y="294" width="240" height="20" rx="10" fill="#2b4670"/>
+  <rect x="772" y="294" width="164" height="20" rx="10" fill="#80d4ff"/>
+  <rect x="772" y="326" width="240" height="20" rx="10" fill="#2b4670"/>
+  <rect x="772" y="326" width="142" height="20" rx="10" fill="#75c6ff"/>
+
+  <rect x="740" y="392" width="362" height="172" rx="18" fill="#132645" stroke="#486aa2"/>
+  <text x="768" y="435" fill="#d0e5ff" font-size="24" font-family="Segoe UI, Arial">Predicted Landing Success</text>
+  <circle cx="922" cy="486" r="56" fill="none" stroke="#34537e" stroke-width="16"/>
+  <path d="M922 430 A56 56 0 1 1 875 516" fill="none" stroke="#8ae0ff" stroke-width="16" stroke-linecap="round"/>
+  <text x="889" y="497" fill="#d7e8ff" font-size="32" font-family="Segoe UI, Arial" font-weight="700">84%</text>
+
+  <rect x="84" y="576" width="1018" height="20" rx="10" fill="url(#ground)"/>
+</svg>
